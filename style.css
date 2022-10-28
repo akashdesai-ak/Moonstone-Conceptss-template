@@ -8308,6 +8308,10 @@ button.bg-light:focus {
   background-color: #fff !important;
 }
 
+.bg-dark {
+  background-color: #222222 !important;
+  color: #fff !important;
+}
 .border {
   border: 1px solid #dee2e6 !important;
 }
@@ -9700,7 +9704,7 @@ body.compensate-for-scrollbar {
   }
 }
 
-/*!
+/*
  * Datepicker for Bootstrap v1.6.4 (https://github.com/eternicode/bootstrap-datepicker)
  *
  * Copyright 2012 Stefan Petre
@@ -11744,4 +11748,25 @@ body:after {
 
 .footer a:hover {
   color: #000;
+}
+
+
+/* contact google map */
+
+.google-maps{
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; 
+}
+.google-maps iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding:  0px 20px;
+  width: 100% !important;
+  height: 70% !important;
+}
+.gmap{
+  background-color: #002a80;
 }
